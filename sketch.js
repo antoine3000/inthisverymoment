@@ -207,11 +207,11 @@ function draw() {
   text(lastUpdate, width / 2, 15);
   
   let sentence = `
-    in this very moment,
-    it is ${airQualityAppreciation || '...'} to breathe in,
-    ${temperatureAppreciation || '...'} to be here,
-    ${soundAppreciation || '...'} to the ears,
-    i ${appreciation || '...'} being here.
+  in this very moment,
+  it is ${airQualityAppreciation || '...'} to breathe in,
+  ${temperatureAppreciation || '...'} to be here,
+  ${soundAppreciation || '...'} to the ears,
+  i ${appreciation || '...'} being here.
   `;
   
   textAlign(CENTER, CENTER);
